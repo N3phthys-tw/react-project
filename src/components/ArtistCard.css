@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+.artist {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.card-container {
+    width: 25%;
+    padding: 2px;
+    overflow: hidden;
+    border: 1px solid gray;
+    display: block;
+    margin: 10px 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer
+}
+
+.img-container img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.card-title h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}

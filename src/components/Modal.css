@@ -1,0 +1,49 @@
+.background {
+    position: fixed;
+    background-color: gray;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 80%;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.modal {
+    position: fixed;
+    inset: 5%;
+    background-color: #242424;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.modal img {
+    height: 60%;
+    margin: 10px;
+}
+
+.modal h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.description {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid white;
+}
+
+.modal p {
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+    line-height: 2;
+}

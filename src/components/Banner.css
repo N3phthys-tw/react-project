@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Lato&family=Open+Sans&family=Roboto&display=swap');
+
+
+.banner {
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 100%;
+    height: 50vh;
+    min-height: 520px;
+    position: relative;
+}
+
+
+.intro {
+    text-align: center;
+    display: inline-block;
+    padding: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.address {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #bc3695;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Antonio', Helvetica, Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.time {
+    color: #ee9419;
+    text-transform: uppercase;
+    margin: 30px;
+    font-size: 20px;
+}

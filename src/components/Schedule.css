@@ -1,0 +1,126 @@
+.schedule {
+    display: block;
+    background: linear-gradient(#000000 0%, #1e3442 50%, #36596f 100%);
+    color: white;
+}
+
+.schedule .schedule-container {
+    position: relative;
+}
+
+.schedule .stage {
+    color: #9D387F;
+    text-transform: uppercase;
+    font-family: 'Antonio-Bold', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.schedule .stage .type {
+    width: calc(50% - 38px);
+}
+
+.schedule .stage .type:first-of-type {
+    text-align: right;
+}
+
+.schedule .stage .timeline {
+    padding: 0 38px;
+    height: 87px;
+}
+
+.schedule .stage .timeline .timeline-bar {
+    width: 4px;
+    background: -moz-linear-gradient(rgba(123, 146, 161, 0), rgba(123, 146, 161, 0.2));
+    background: -webkit-linear-gradient(rgba(123, 146, 161, 0), rgba(123, 146, 161, 0.2));
+    background: linear-gradient(rgba(123, 146, 161, 0), rgba(123, 146, 161, 0.2));
+    margin: 0 auto;
+    display: inline-block;
+    height: 100%;
+}
+
+.schedule .performance {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.schedule .performance:nth-of-type(2n) {
+    text-align: right;
+    padding-right: calc(50% - 38px);
+    flex-direction: row-reverse;
+}
+
+.schedule .performance:nth-of-type(2n+1) {
+    text-align: left;
+    padding-left: calc(50% - 38px);
+}
+
+.schedule .performance .timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 0 34px;
+    align-items: center;
+}
+
+.schedule .performance .timeline .timeline-dot {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 4px;
+    margin: 4px 0;
+}
+
+.schedule .performance .timeline .timeline-bar {
+    width: 4px;
+    background-color: rgba(123, 146, 161, 0.2);
+    height: calc(100% - 16px);
+    margin: 0 auto;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.schedule .performance:last-of-type .timeline .timeline-bar {
+    background: -moz-linear-gradient(rgba(123, 146, 161, 0.2), rgba(123, 146, 161, 0));
+    background: -webkit-linear-gradient(rgba(123, 146, 161, 0.2), rgba(123, 146, 161, 0));
+    background: linear-gradient(rgba(123, 146, 161, 0.2), rgba(123, 146, 161, 0));
+}
+
+.schedule .performance>span {
+    display: inline-block;
+}
+
+.schedule .performance>span>span {
+    display: block;
+}
+
+.schedule .performance .performanceTime {
+    color: #EB942D;
+}
+
+.schedule .performance .performanceName {
+    text-transform: capitalize;
+    font-family: 'Antonio-Bold', Helvetica, Arial, sans-serif;
+    font-size: 37px;
+    padding: 8px 0;
+}
+
+.schedule .performance .performanceLink {
+    color: #7B92A1;
+    font-size: 14px;
+}

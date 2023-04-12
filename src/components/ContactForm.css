@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+/* font-family: 'Noto Sans TC', sans-serif; */
+
+.contact-container {
+    background-color: black;
+    height: 50vh;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.contact-container h1 {
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.contact-container form {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-container form input,
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 15px auto;
+    font-size: 20px;
+
+    background-color: #272727;
+}
+
+.contact-container form button {
+    height: 30px;
+    border: 2px solid #272727;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    width: 30%;
+}
+
+.contact-container form button:hover {
+    color: #f29414;
+}
+
+input,
+textarea[type="text"] {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}

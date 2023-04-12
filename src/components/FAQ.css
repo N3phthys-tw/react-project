@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+.faq-container {
+    height: 50vh;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.faq-title {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+.faq-content-container {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.question {
+    width: 80%;
+    border-bottom: 0.5px solid #3c3c3c;
+    font-size: 25px;
+    margin: 2%;
+    padding: 5px;
+}
+
+.answer {
+    width: 80%;
+    padding-left: 3%;
+    color: #BEBEBE;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+.about-container {
+    height: 50vh;
+    display: block;
+    background-color: black;
+
+}
+
+.about-title {
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.content-container {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+.content-container p {
+    margin: 10px;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+}
